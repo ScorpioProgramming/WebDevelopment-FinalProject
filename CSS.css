@@ -3,8 +3,8 @@ header{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 15% auto 15%;
-    grid-template-rows: 20% auto 20%;
+    grid-template-columns: 10% 80% 10%; /*Add padding between side bars and text */
+    grid-template-rows: 10% 100% 10%;
 }
 .grid-header{
     grid-column: 1 / 4;
@@ -13,12 +13,12 @@ header{
 .grid-left{
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(187, 187, 187);
 }
 .grid-right{
     grid-column: 3 / 4;
     grid-row: 1 / 4;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(187, 187, 187, 1);
 }
 .grid-nav{
     grid-column: 1 / 2;
@@ -47,4 +47,12 @@ li a:hover{
 }
 li a.active{
     background-color: #666;
+}
+article p{
+    color: hsla(180, 50%, 0%, 1);
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
 }
