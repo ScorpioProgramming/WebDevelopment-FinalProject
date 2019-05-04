@@ -5,6 +5,7 @@ header{
     display: grid;
     grid-template-columns: 10% 80% 10%; /*Add padding between side bars and text */
     grid-template-rows: 10% 100% 10%;
+    grid-gap: 15pt;
 }
 .grid-header{
     grid-column: 1 / 4;
