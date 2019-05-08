@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     text-align: center;
 }
@@ -61,3 +62,68 @@ div#chessimg{
     height: 20px;
     width: 20px;
 }
+=======
+header{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 100% 10%;
+    grid-gap: 15pt;
+}
+.grid-header{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.grid-left{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: rgb(187, 187, 187);
+}
+.grid-right{
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    background-color: rgba(187, 187, 187, 1);
+}
+.grid-nav{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.grid-footer{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+ul{
+    list-style-type: none;
+    margin: 0ex;
+    padding: 0em;
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+}
+li a{
+    display: block;
+    color: hsl(180, 50%, 0%);               /* fix so that li items only applay to universal nav */
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: gray;
+}
+li a.active{
+    background-color: #666;
+}
+article p{
+    color: hsla(180, 50%, 0%, 1);
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav#internalnav{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+>>>>>>> f44f4f7abcc454ee75d1702e38d214978df4be93
