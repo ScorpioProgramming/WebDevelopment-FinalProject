@@ -98,3 +98,8 @@ footer{
     min-height: 140px;
     background-image: url(https://charlesharropgriffiths.files.wordpress.com/2015/01/img_7392.jpg);
 }
+@media screen and (max-width: 1200px){
+    footer{
+        min-height: 0px;
+    }
+}
