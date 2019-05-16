@@ -1,6 +1,18 @@
+/* Header background image and responsiveness if screen slimer then 900px */
 header{
+    font-size: 1vw;
+    color: #FFF;
     text-align: center;
+    background-image: url(https://charlesharropgriffiths.files.wordpress.com/2015/01/img_7392.jpg);
 }
+@media screen and (max-width: 900px){
+    header{
+        min-height: 0px;
+    }
+}
+/* End of "Header background image and responsiveness if screen slimer then 900px" */
+
+/* Grid creation and where the diffrent "main" tags are suppose to be located in that grid */
 .grid-container{
     display: grid;
     grid-template-columns: 10% 80% 10%;
@@ -33,6 +45,9 @@ header{
     grid-column: 1 / 4;
     grid-row: 4 / 5;
 }
+/* End of grid creation */
+
+/* Start of NAV visuals */
 ul{
     list-style-type: none;
     margin: 0ex;
@@ -43,7 +58,7 @@ ul{
 }
 li a{
     display: block;
-    color: hsl(180, 50%, 0%);               /* fix so that li items only applay to universal nav */
+    color: hsl(180, 50%, 0%);
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -57,14 +72,21 @@ article p{
     color: hsla(180, 50%, 0%, 1);
     font-size: 1rem;
 }
+/* End of NAV visuals */
+
+/* fixing size and position for h2s */
 h2{
     text-align: center;
     font-size: 1.5rem;
 }
+
+/* Internal NAV position in grid system */
 #grid-nav2{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
 }
+
+/* How the download button should be aligned and function */
 #download{
     text-align: center;
 }
@@ -94,12 +116,16 @@ h2{
     opacity: 0.5;
     cursor: not-allowed;
 }
+/* End  of "How the download button should be aligned and function" */
+
+/* Footer background image and responsiveness if screen slimer then 900px */
 footer{
     min-height: 140px;
     background-image: url(https://charlesharropgriffiths.files.wordpress.com/2015/01/img_7392.jpg);
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
     footer{
         min-height: 0px;
     }
 }
+/* End of "Footer background image and responsiveness if screen slimer then 900px" */
