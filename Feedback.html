@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,7 @@
         </nav>
         <main class="grid-main" role="main">
             <article>
+                <h3>Fill in the form below</h3>
                 <form method="POST" action="/WebDevelopment-FinalProject/StartPage.html" novalidate>
                     <fieldset>
                         <legend>Feedback</legend>
@@ -38,43 +39,43 @@
                         <br>
                         <label for="email">E-mail:</label>
                         <br>
-                        <input type="email" placeholder="E-mail" required>
+                        <input id="email" type="email" placeholder="E-mail" required>
                         <br>
                         <br>
                         <label for="password">Password:</label>
                         <br>
-                        <input type="password" name="password" placeholder="Password" required>
+                        <input id="password" type="password" name="password" placeholder="Password" required>
                         <br>
                         <br>
                         <label for="checkbox">If extreamly important check the box below</label>
                         <br>
-                        <input type="checkbox" name="If important" checked>
+                        <input id="checkbox" type="checkbox" name="If important" checked>
                         <br>
                         <br>
                         <label for="Gender">Gender:</label>
                         <br>
-                        <label for="radio" >Man</label>
+                        <label for="Gender-M" >Man</label>
                         <br>
-                        <input type="radio" name="Gender">
+                        <input id="Gender-M" type="radio" name="Gender">
                         <br>
-                        <label for="radio Women">Women</label>
+                        <label for="Gender-W">Women</label>
                         <br>
-                        <input type="radio" name="Gender" >
+                        <input id="Gender-W" type="radio" name="Gender" >
                         <br>
                         <br>
                         <label for="feedback">Feedback:</label>
                         <br>
-                        <textarea name="Feedback" cols="30" rows="10" required>
+                        <textarea id="feedback" name="Feedback" cols="30" rows="10" required>
 
                         </textarea>
                         <br>
                         <br>
                         <label for="url">Picture of problem</label>
                         <br>
-                        <input type="url">
+                        <input id="url" type="url">
                         <br>
                         <br>
-                        <textarea name="readonly"  cols="30" rows="1" readonly>
+                        <textarea id="Gender" name="readonly"  cols="30" rows="1" readonly>
 Thank you for repoting this!
                         </textarea>
                         <br>
@@ -84,6 +85,7 @@ Thank you for repoting this!
                 </form>
             </article>
             <section>
+                <h4>If you want to listen to some music while filling in the form</h4>
                 <audio controls>
                     <source src="audio.mp3" type="audio/mpeg">
                 </audio>
